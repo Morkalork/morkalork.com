@@ -9,6 +9,7 @@ const OuterWrapper = styled.div`
   font-family: 'Source Code Pro', monospace;
   background-color: #000;
   color: #fff;
+    min-height: 100%;
   @media screen and (min-width: 850px) {
     background-image: url(${backgroundImage});
     background-position: bottom 1rem left 1rem;
@@ -21,7 +22,6 @@ const InnerWrapper = styled.div`
     max-width: 30rem;
     margin: 0 auto;
     padding: 2rem 0;
-    min-height: 100%;
 `;
 
 class App extends React.Component {

@@ -9,9 +9,8 @@ const revengeOfTheRitualDeathBird = require('../../../assets/revengeOfTheRitualD
 const aBoxLife = require('../../../assets/aBoxLife.jpg');
 
 const Creativity: React.FunctionComponent = () => <div>
-    <Paragraph>As a developer you sort of have to be a creative person (imho) and I've always doodled and dabbled,
-        here's
-        some of the stuff I've been doing:</Paragraph>
+    <Paragraph>As a developer you sort of have to be a creative person (imho) and I've always doodled and dabbled.
+        Here's some of the stuff I've been doing:</Paragraph>
     <br/>
     <ThumbnailGallery>
         <Thumbnail src={blocksImage} href={blocksImage} newTab={true}/>
